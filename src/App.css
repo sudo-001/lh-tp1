@@ -36,3 +36,12 @@
     transform: rotate(360deg);
   }
 }
+
+
+.a-active {
+  color: red;
+}
+
+.a-deactive {
+  color: skyblue;
+}
