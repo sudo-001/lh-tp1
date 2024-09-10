@@ -1,13 +1,9 @@
-import React from "react";
-import { Link } from "react-router-dom";
-import NavBar from "../components/NavBar";
+import React from 'react'
 
 function Home() {
   return (
-    <div className="px-8 w-full bg-red-600">
-     Home
-    </div>
-  );
+    <div>Home</div>
+  )
 }
 
-export default Home;
+export default Home
