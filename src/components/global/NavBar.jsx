@@ -11,7 +11,7 @@ function NavBar() {
         <img src={logo} alt="logo" />
       </Link>
 
-      <div className="flex gap-x-4">
+      <div className="lg:flex gap-x-4 hidden">
         <Link to="/"> Home </Link>
         <Link to="/service/"> Service </Link>
         <Link to="/feature/"> Feature </Link>
