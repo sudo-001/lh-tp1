@@ -34,6 +34,7 @@ function Home() {
 
   React.useEffect(() => {
     fetchCountries();
+    console.log(countries);
   }, []);
 
   return (

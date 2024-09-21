@@ -15,6 +15,7 @@ import Product from "./pages/Product";
 import Signin from "./pages/Signin";
 import Signup from "./pages/Signup";
 import Faq from "./pages/Faq";
+import Details from "./pages/Detail";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -30,6 +31,7 @@ root.render(
           <Route path="/testimonial/" element={<Testimonial />} />
           <Route path="/product/" element={<Product />} />
           <Route path="/faq/" element={<Faq />} />
+          <Route path="/details/:name" element={<Details />} />
           <Route path="/signin/" element={<Signin />} />
           <Route path="/signup/" element={<Signup />} />
         </Routes>

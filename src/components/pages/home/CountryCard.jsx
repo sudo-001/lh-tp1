@@ -1,4 +1,5 @@
 import React from "react";
+import Button from "../../global/Button";
 
 function CountryCard(props) {
   // React.useEffect(console.log(props.language), []);
@@ -16,18 +17,13 @@ function CountryCard(props) {
           <span className="underline">Capital :</span>
           {props.capital}
         </p>
-        {/* <p>
-          <span className="underline">Language :</span>
-          <ul>
-            {props.language.map((item) => (
-              <li>item</li>
-            ))}
-          </ul>
-        </p> */}
+        
         <p>
           <span className="underline">Flag :</span> {props.flag}
         </p>
       </div>
+
+      <Button href={`/details/${props.name}`} label="Voir plus" />
     </div>
   );
 }

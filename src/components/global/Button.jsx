@@ -2,12 +2,6 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 function Button(props) {
-  // if (props.isLogin === true) {
-  //     return "bg-[#FFFFFF00";
-  // } else {
-  //     return "bg-[#4CAF4F]";
-  // }
-
   return (
     <button
       className={` rounded px-4 py-2 ${
